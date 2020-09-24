@@ -1,6 +1,6 @@
 const path = require("path");
 
-const PRIVATE_RELAY_XPI = path.join(__dirname, 'addons', 'firefox_relay.xpi');
+const PRIVATE_RELAY_XPI = path.join(__dirname, 'addons', 'firefox_relay_beta-1.4.5-fx.xpi');
 console.log(">>>", PRIVATE_RELAY_XPI);
 
 exports.config = {
